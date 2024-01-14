@@ -4,6 +4,9 @@ staging_branch="staging"
 # Fetch the latest changes from the remote repository
 git fetch
 
+# Sleep for 1 minute
+sleep 1m
+
 # Ensure both branches exist
 if git rev-parse --quiet --verify "$feature_branch" && git rev-parse --quiet --verify "$staging_branch"; then
   # Checkout the staging branch
