@@ -1,0 +1,11 @@
+{
+  "name": "dummy-repo",
+  "version": "1.0.0",
+  "description": "This repo only contain the script while automerge the branch at the specific time duration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Chaudhary",
+  "license": "ISC"
+}
