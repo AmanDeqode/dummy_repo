@@ -1,5 +1,15 @@
-feature_branch="feat/1"
+feature_branch="feat/2"
 staging_branch="staging"
+
+# Sleep for 1 minute
+sleep 1m
+
+# Set Git credentials (replace with your actual username and password)
+git_username="achoudhary@deqode.com"
+git_password="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"
+
+# Set the Git remote URL with embedded credentials
+git_remote="https://${achoudhary@deqode.com}:${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}@https://github.com/AmanDeqode/dummy_repo.git"
 
 # Fetch the latest changes from the remote repository
 git fetch
