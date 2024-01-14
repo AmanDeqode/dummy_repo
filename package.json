@@ -4,8 +4,12 @@
   "description": "This repo only contain the script while automerge the branch at the specific time duration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "shell-script": "./merge_feature_into_staging.sh"
   },
   "author": "Aman Chaudhary",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
