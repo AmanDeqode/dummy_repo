@@ -1,4 +1,4 @@
-feature_branch="feat/1"
+feature_branch="feat/2"
 staging_branch="staging"
 
 # Fetch the latest changes from the remote repository
