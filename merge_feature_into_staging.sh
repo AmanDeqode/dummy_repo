@@ -1,4 +1,4 @@
-feature_branch="feat/3"
+feature_branch="feat/4"
 staging_branch="staging"
 
 # Fetch the latest changes from the remote repository
@@ -10,7 +10,7 @@ if git rev-parse --quiet --verify "$feature_branch" && git rev-parse --quiet --v
   git checkout "$staging_branch"
 
   # Merge feature1 into staging
-  git merge --no-ff "$feature_branch"
+  git merge --no-ff --no-edit "$feature_branch"
 
   # Check if the merge was successful
   if [ $? -eq 0 ]; then
